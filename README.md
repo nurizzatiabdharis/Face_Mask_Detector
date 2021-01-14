@@ -18,3 +18,8 @@ OpenCV :
 - haarcascade_frontalface_default.xml 
   Link : https://github.com/opencv/opencv/tree/master/data/haarcascades 
 
+
+**Web break our project into two distinct phases, each with its own respective sub-steps :** 
+- ***Phase 1 : Training*** : Here we’ll focus on loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk 
+
+- ***Phase 2 : Deployment*** : Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as No_mask or Face_mask
